@@ -1,0 +1,168 @@
+{
+ "accounts": [
+  {
+   "id": "001DEMO0000RBA4440",
+   "name": "18034, 4440 DEVONSHIRE DR",
+   "street": "4440 DEVONSHIRE DR",
+   "city": "CENTER VALLEY",
+   "state": "PA",
+   "zip": "18034",
+   "storeId": "0412",
+   "legacy_account": false
+  },
+  {
+   "id": "001DEMO0000RBA4441",
+   "name": "18034, 4440 OLD BETHLEHEM PIKE",
+   "street": "4440 OLD BETHLEHEM PIKE",
+   "city": "CENTER VALLEY",
+   "state": "PA",
+   "zip": "18034",
+   "storeId": "0412",
+   "legacy_account": false
+  },
+  {
+   "id": "001DEMO0000RBA1218",
+   "name": "18018, 1218 LINDEN ST",
+   "street": "1218 LINDEN ST",
+   "city": "BETHLEHEM",
+   "state": "PA",
+   "zip": "18018",
+   "storeId": "0412",
+   "legacy_account": false
+  },
+  {
+   "id": "001DEMO0000RBA0302",
+   "name": "18036, 302 MILL RD",
+   "street": "302 MILL RD",
+   "city": "COOPERSBURG",
+   "state": "PA",
+   "zip": "18036",
+   "storeId": "0412",
+   "legacy_account": true
+  },
+  {
+   "id": "001DEMO0000RBA0055",
+   "name": "18104, 55 CHESTNUT ST",
+   "street": "55 CHESTNUT ST",
+   "city": "ALLENTOWN",
+   "state": "PA",
+   "zip": "18104",
+   "storeId": "0412",
+   "legacy_account": false
+  },
+  {
+   "id": "001DEMO0000RBA0188",
+   "name": "Linda Moreno",
+   "street": null,
+   "city": null,
+   "state": null,
+   "zip": null,
+   "storeId": "0412",
+   "legacy_account": false
+  }
+ ],
+ "contacts": [
+  {
+   "id": "C-001",
+   "accountId": "001DEMO0000RBA4440",
+   "name": "Melissa Zubert",
+   "phone": "(214) 454-8759",
+   "phone_digits": "2144548759",
+   "role": "Current Resident"
+  },
+  {
+   "id": "C-002",
+   "accountId": "001DEMO0000RBA4441",
+   "name": "Karen Doyle",
+   "phone": "(610) 555-0131",
+   "phone_digits": "6105550131",
+   "role": "Current Resident"
+  },
+  {
+   "id": "C-003",
+   "accountId": "001DEMO0000RBA1218",
+   "name": "Previous owner (on file)",
+   "phone": "(610) 555-0177",
+   "phone_digits": "6105550177",
+   "role": "Former Resident"
+  },
+  {
+   "id": "C-004",
+   "accountId": "001DEMO0000RBA0055",
+   "name": "Robert Hale",
+   "phone": null,
+   "phone_digits": null,
+   "role": "Current Resident"
+  },
+  {
+   "id": "C-005",
+   "accountId": "001DEMO0000RBA0188",
+   "name": "Linda Moreno",
+   "phone": "(610) 555-0188",
+   "phone_digits": "6105550188",
+   "role": "Current Resident"
+  }
+ ],
+ "orders": [
+  {
+   "id": "DEMO-04412",
+   "accountId": "001DEMO0000RBA4440",
+   "status": "Job Closed",
+   "booking_date": "3/2/2026",
+   "install_date": "4/10/2026"
+  },
+  {
+   "id": "DEMO-01877",
+   "accountId": "001DEMO0000RBA4441",
+   "status": "Job Closed",
+   "booking_date": "8/12/2023",
+   "install_date": "9/28/2023"
+  },
+  {
+   "id": "DEMO-02210",
+   "accountId": "001DEMO0000RBA1218",
+   "status": "Job Closed",
+   "booking_date": "5/14/2019",
+   "install_date": "6/20/2019"
+  },
+  {
+   "id": "DEMO-03155",
+   "accountId": "001DEMO0000RBA0055",
+   "status": "Job Closed",
+   "booking_date": "6/3/2024",
+   "install_date": "7/22/2024"
+  }
+ ],
+ "service_requests": [
+  {
+   "id": "DEMO-SR-0908",
+   "accountId": "001DEMO0000RBA4440",
+   "status": "Service Scheduled",
+   "start_date": "9/8/2026",
+   "summary": "Replacement sash on order"
+  },
+  {
+   "id": "DEMO-SR-0302",
+   "accountId": "001DEMO0000RBA0302",
+   "status": "Service Scheduled",
+   "start_date": "10/14/2026",
+   "summary": "Legacy window seal repair"
+  },
+  {
+   "id": "DEMO-SR-0188",
+   "accountId": "001DEMO0000RBA0188",
+   "status": "Open",
+   "start_date": "10/5/2026",
+   "summary": "Window crank not turning"
+  }
+ ],
+ "stores": [
+  {
+   "id": "0412",
+   "name": "Renewal by Andersen of the Lehigh Valley (DEMO)",
+   "service_phone": "(610) 555-0100",
+   "service_email": "service.lehighvalley@example-rba.com",
+   "hours": "Mon-Fri 8:00 AM-5:00 PM ET"
+  }
+ ]
+}
