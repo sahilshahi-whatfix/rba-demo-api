@@ -1,0 +1,9 @@
+{
+  "name": "rba-demo-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fictional RbA customer data served by json-server for the Andersen demo",
+  "dependencies": {
+    "json-server": "0.17.4"
+  }
+}
